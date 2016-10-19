@@ -29,11 +29,12 @@ canonical: true
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories
-  #about: /about
-  archives: /archives
+  categories: /categories
   tags: /tags
-  schedule: /schedule
+  archives: /archives
+  resume: /resume
+  #about: /about
+  # schedule: /schedule
   #commonweal: /404.html
 
 
@@ -78,7 +79,7 @@ font:
   enable: true
 
   # Uri of fonts host. E.g. //fonts.googleapis.com (Default)
-  host:
+  host: //fonts.css.network
 
   # Global font settings used on <body> element.
   global:
@@ -273,7 +274,7 @@ mathjax:
 #google_analytics:
 
 # CNZZ count
-#cnzz_siteid:
+cnzz_siteid: 1257366126
 
 
 # Make duoshuo show UA
