@@ -13,8 +13,6 @@
 
 <body itemscope itemtype="//schema.org/WebPage" lang="{{ config.language }}">
 
-  {% include '_scripts/third-party/analytics.swig' %}
-
   {% set container_class = "container one-collumn " %}
   {% if theme.sidebar.position %}
     {% set container_class = container_class + 'sidebar-position-' + theme.sidebar.position %}
@@ -72,6 +70,7 @@
   {% include '_scripts/third-party/lean-analytics.swig' %}
   {% include '_scripts/baidu-push.swig' %}
   {% include '_scripts/third-party/schedule.swig' %}
+  {% include '_scripts/third-party/analytics.swig' %}
 
 </body>
 </html>
